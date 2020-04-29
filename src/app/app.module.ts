@@ -4,6 +4,8 @@ import { NgModule } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 
+import { ThemeModule } from '@stockmotion/shared/dist/theme';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
@@ -16,6 +18,7 @@ import { AppComponent } from './app.component';
     AppRoutingModule,
     MatButtonModule,
     MatIconModule,
+    ThemeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
