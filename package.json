@@ -19,10 +19,10 @@
     "@angular/platform-browser": "~9.1.1",
     "@angular/platform-browser-dynamic": "~9.1.1",
     "@angular/router": "~9.1.1",
+    "@stockmotion/shared": "git+ssh://git@bitbucket.org/stock-motion/web-shared.git",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
-    "zone.js": "~0.10.2",
-    "@stockmotion/shared": "git+ssh://git@bitbucket.org/stock-motion/web-shared.git"
+    "zone.js": "~0.10.2"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.901.1",
